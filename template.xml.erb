@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<collection>
+  <% @collection.each do |quote| %>
+    <quote>
+      <text><%=quote.text%></text>
+      <author><%=quote.author%></author>
+    </quote>
+  <% end %>
+</collection>
